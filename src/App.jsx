@@ -11,9 +11,7 @@ import Details from "./pages/details/Details";
 import SearchResult from "./pages/searchResult/SearchResult";
 import Explore from "./pages/explore/Explore";
 import PageNotfound from "./pages/404/PageNotfound";
-import Headr from "./components/header/Headr";
-// import Header from "./components/header/header";
-
+import Header from "./components/header/header";
 
 
 
@@ -62,7 +60,7 @@ function App() {
   }
 
   return (<BrowserRouter>
-  <Headr />
+  <Header />
   <Routes>
     <Route path="/" element={<Home/>} /> 
     <Route path="/:mediaType/:id" element={<Details/>} /> 
