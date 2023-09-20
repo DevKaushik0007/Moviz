@@ -11,7 +11,7 @@ import ContentWrapper from "../contentWrapper/contentWrapper";
 import logo from "../../../public/remove.png";
 
 
-const Header = () => {
+const Headr = () => {
     const [show, setShow] = useState("top");
     const [lastScrollY, setLastScrollY] = useState(0);
     const [mobileMenu, setMobileMenu] = useState(false);
@@ -115,4 +115,4 @@ if(type === "movie"){
     );
 };
 
-export default Header;
+export default Headr;
