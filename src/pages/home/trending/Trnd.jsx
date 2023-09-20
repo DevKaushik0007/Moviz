@@ -10,7 +10,7 @@ import Carousel from '../../../components/carousel/Carousel';
 
 const Trending = () => {
     const [endpoint, setEndpoint] = useState("day")
-    const {data, loading } = useFetch(`/trending/movie/${endpoint}
+    const {data, loading } = useFetch(`/trending/all/${endpoint}
     `);
 
     const onTabChange = (tab) => {

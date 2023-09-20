@@ -7,8 +7,8 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./style.scss";
 
 import ContentWrapper from "../contentWrapper/contentWrapper";
-// import logo from "../../assets/movix-logo.svg";
-import logo from "../../../public/logo1.png";
+
+import logo from "../../../public/remove.png";
 
 
 const Header = () => {
@@ -104,7 +104,7 @@ if(type === "movie"){
                 <ContentWrapper>
                 <div className="searchInput">
                 <input type="text"
-                placeholder="Search for a movie or tv show..." 
+                placeholder="Stranger Things" 
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyUp={searchQueryHandler}/>
                  <VscChromeClose onClick={() =>  setShowSearch(false)} />

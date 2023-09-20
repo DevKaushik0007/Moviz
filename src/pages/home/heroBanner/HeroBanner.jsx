@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import "./style.scss";
 
 import useFetch from '../../../hooks/useFetch';
-import Img from '../../../components/lazyLoadImage/img';
+import Img from '../../../components/lazyLoadImage/Img';
 import ContentWrapper from '../../../components/contentWrapper/contentWrapper';
 
 const HeroBanner = () => {
@@ -40,7 +40,7 @@ const HeroBanner = () => {
               </span>
               <div className="searchInput">
                 <input type="text"
-                placeholder="Search for a movie or tv show..." 
+                placeholder="Stranger Things" 
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyUp={searchQueryHandler}/>
                 <button>Search</button>
